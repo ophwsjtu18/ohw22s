@@ -2,7 +2,7 @@
 # Open source hardware Mak-er practice
 
 
-*This is a example for pic show*
+*This is an example for pic show*
 
 
 ![goodnight](https://github.com/ophwsjtu18/ohw22s/blob/main/zrh/Goodnight_nie.jpg)
