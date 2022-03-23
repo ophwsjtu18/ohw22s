@@ -6,7 +6,7 @@ c'est moi!\
 # Mon premier devoir---grand bâtiment de TNT!!
 c'est son démonstration
 ![](https://github.com/ophwsjtu18/ohw22s/blob/main/yh/images/2022-03-23_21.30.46.png)
-Et suivant sont les codes Python\
+Et suivant sont les codes Python
 ```# define a new function, that builds a house 3*3
 def house():
     # Calculate the midpoints of the front face of the house  
