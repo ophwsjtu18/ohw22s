@@ -1,2 +1,2 @@
 hello
-![avatar](https://example.com/image/path.png)
+![AltText](https://example.com/image/path.png)
