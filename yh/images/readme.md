@@ -1,1 +1,1 @@
-Dans ici,je vais confier touts les images.
+Ici,je vais confier touts les images.
