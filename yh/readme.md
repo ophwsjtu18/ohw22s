@@ -3,7 +3,7 @@ Bonjour!!!\
 C'est moi!\
 ![rararara](https://github.com/ophwsjtu18/ohw22s/blob/main/OIP-C.jpg)
 
-# Mon premier devoir---grand bâtiment de TNT!!
+## Mon premier devoir---grand bâtiment de TNT!!
 c'est son démonstration
 ![](https://github.com/ophwsjtu18/ohw22s/blob/main/yh/images/2022-03-23_21.30.46.png)
 Et suivant sont les codes Python
