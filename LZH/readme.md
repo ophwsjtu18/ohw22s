@@ -4,4 +4,4 @@
 ![](https://github.com/ophwsjtu18/ohw22s/blob/main/LZH/EVA.jpg)
 ***
 # This is the photo of Minecraft-HotelCreate
-![](https://github.com/ophwsjtu18/ohw22s/blob/main/LZH/Minecraft_createHotel.jpg)
+![](https://github.com/ophwsjtu18/ohw22s/blob/main/LZH/202243155020.bmp)
