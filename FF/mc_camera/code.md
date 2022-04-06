@@ -35,28 +35,29 @@ while True:
     if ret == True:
         frame = cv2.flip(frame, 1)
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+    
     img = frame
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+    
     for (x,y,w,h) in faces:
         img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
         if(x < 50):
             msg = "Left"
-        if(x >150):
+        else if(x >150):
             msg = "Right"
         if(w > 300):
             msg = "Forward"
-        if(w < 150):
+        else if(w < 150):
             msg = "Backward"
+    
     cv2.imshow('img',img)
-
     time.sleep(1)
     result = client.publish(topic, msg)
     print(result)
     
     if cv2.waitKey(1) & 0xFF == 27:
         break
-
 
 cap.release()
 cv2.destroyAllWindows()
