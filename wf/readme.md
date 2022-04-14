@@ -11,3 +11,7 @@
 # This is the screen capture image of homework_0413_task1
 
 ![](https://github.com/ophwsjtu18/ohw22s/blob/main/wf/image/task1.jpg)
+
+# This is the screen capture image of homework_0413_task2
+
+![](https://github.com/ophwsjtu18/ohw22s/blob/main/wf/image/task2.jpg)
