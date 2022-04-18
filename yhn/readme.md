@@ -3,4 +3,4 @@ hello
 This is a 3*3 array of houses
 ![houses](https://github.com/ophwsjtu18/ohw22s/blob/main/yhn/2022-03-25.png "3*3 house array")
 This is part of the building of the school of microelectronics.
-![building_copy]()
+![building_copy](https://github.com/ophwsjtu18/ohw22s/blob/main/yhn/2022-04-18.png)
