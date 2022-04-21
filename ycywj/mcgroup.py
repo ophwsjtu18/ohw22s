@@ -58,7 +58,7 @@ class House():
     def buildhousex9(self):
         for i in range(3):
             for j in range(3):
-                buildhouse(self.x+i*13,self.y,self.z+13*j,self.w,self.l,self.h,40)
+                buildhouse(self.x+i*13,self.y,self.z+13*j,self.w,self.l,self.h,41)
                 buildroof(self.x+i*13,self.y,self.z+13*j,self.w,self.l,self.h,"roof.csv")
     def ishouse(self):
         while(True):
@@ -83,7 +83,7 @@ class House():
                 mc.setBlock(x0, y0+y, z0+1+a, M)
                 mc.setBlock(x0+L-1, y0+y, z0+1+a, M)
     def buildhall(self):
-            buildhouse(self.x+13,self.y+self.h*2,self.z+13,self.w*2,self.l*2,self.h*2,40)
+            buildhouse(self.x+13,self.y+self.h*2,self.z+13,self.w*2,self.l*2,self.h*2,41)
             buildroof(self.x+13,self.y+self.h*2,self.z+13,self.w*2,self.l*2,self.h*2,"roof.csv")
             buildroof(self.x+13,self.y+self.h,self.z+13,self.w*2,self.l*2,self.h,"roof.csv")         
 house1=House(pos.x,pos.y,pos.z,10,10,10)
