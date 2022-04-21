@@ -54,11 +54,13 @@ class House():
         self.w=w
         self.h=h
         print("I will build a house on",self.x,self.y,self.z,self.l,self.w,self.h)
-
+    def buildbuild(self):
+        buildhouse(self.x,self.y,self.z,self.w,self.l,self.h,45)
+        buildroof(self.x,self.y,self.z,self.w,self.l,self.h,"roof.csv")
     def buildhousex9(self):
         for i in range(3):
             for j in range(3):
-                buildhouse(self.x+i*13,self.y,self.z+13*j,self.w,self.l,self.h,41)
+                buildhouse(self.x+i*13,self.y,self.z+13*j,self.w,self.l,self.h,46)
                 buildroof(self.x+i*13,self.y,self.z+13*j,self.w,self.l,self.h,"roof.csv")
     def ishouse(self):
         while(True):
@@ -86,11 +88,37 @@ class House():
             buildhouse(self.x+13,self.y+self.h*2,self.z+13,self.w*2,self.l*2,self.h*2,41)
             buildroof(self.x+13,self.y+self.h*2,self.z+13,self.w*2,self.l*2,self.h*2,"roof.csv")
             buildroof(self.x+13,self.y+self.h,self.z+13,self.w*2,self.l*2,self.h,"roof.csv")         
-house1=House(pos.x,pos.y,pos.z,10,10,10)
-house1.buildhousex9()
+house1=House(100,100,100,10,10,10)
+house2=House(100,100,113,10,10,10)
+house3=House(100,100,126,10,10,10)
+house4=House(113,100,100,10,10,10)
+house5=House(113,100,113,10,10,10)
+house6=House(113,100,126,10,10,10)
+house7=House(126,100,100,10,10,10)
+house8=House(126,100,113,10,10,10)
+house9=House(126,100,126,10,10,10)
+houses=[]
+houses.append(house1)
+houses.append(house2)
+houses.append(house3)
+houses.append(house4)
+houses.append(house5)
+houses.append(house6)
+houses.append(house7)
+houses.append(house8)
+houses.append(house9)
+house1.buildbuild()
+house2.buildbuild()
+house3.buildbuild()
+house4.buildbuild()
+house5.buildbuild()
+house6.buildbuild()
+house7.buildbuild()
+house8.buildbuild()
+house9.buildbuild()
 house1.buildhall()
 house1.buildwall()
-house1.ishouse()
+houses.ishouse()
 
 
 
