@@ -63,12 +63,12 @@ class House():
                 buildhouse(self.x+i*13,self.y,self.z+13*j,self.w,self.l,self.h,46)
                 buildroof(self.x+i*13,self.y,self.z+13*j,self.w,self.l,self.h,"roof.csv")
     def ishouse(self):
-        while(True):
+        for i in rang(5):
             pos2= mc.player.getTilePos()
             if((self.x+self.w)>pos2.x&pos2.x>self.x&(self.y+self.l)>pos2.y&pos2.y>self.y):
                 print("welcome to kevin house")
                 break
-            time.sleep(1)
+            time.sleep(0.1)
     def buildwall(self):
         x0=self.x-0.6*self.l
         y0=self.y
@@ -118,7 +118,8 @@ house8.buildbuild()
 house9.buildbuild()
 house1.buildhall()
 house1.buildwall()
-houses.ishouse()
+for house in houses:
+    house.ishouse()
 
 
 
