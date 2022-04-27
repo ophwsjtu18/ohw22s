@@ -8,3 +8,7 @@ Hello
 
 ## This is the screenshot of homework4_13
 ![](https://github.com/ophwsjtu18/ohw22s/blob/main/hty/image/build_cat.png)
+
+## These are the screenshots of homework4_20
+![](https://github.com/ophwsjtu18/ohw22s/blob/main/hty/image/welcomehome_check1.png)
+![](https://github.com/ophwsjtu18/ohw22s/blob/main/hty/image/welcomehome_check2.png)
