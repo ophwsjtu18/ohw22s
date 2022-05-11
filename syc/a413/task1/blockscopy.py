@@ -1,0 +1,21 @@
+from mcpi.minecraft import Minecraft
+import time
+mc=Minecraft.create()
+pos=(25,-1,107)
+#pos=mc.player.getTilePos()
+f=open("block.csv",'w')
+L=55
+W=25
+H=40
+for y in range (H):
+    for x in range (L):
+        for z in range (W):
+            block=mc.getBlockWithData(pos[0]+x,pos[1]+y,pos[2]+z)
+            f.write(str(block.id))
+            f.write('|')
+            f.write(str(block.data))
+            if z < W-1:
+                f.write(',')
+        f.write('\n')
+        print(x,y)
+f.close()
