@@ -1,0 +1,2 @@
+作业：学习blockcopy.py和blockpast.py代码 完成交大某栋楼的拷贝，粘贴，代码和效果图上传github
+作业2：把你的头像通过opencv的gray灰度图，利用不同颜色羊毛方块，镶嵌在交大校园里你的宿舍外墙上。图片和代码上传github
