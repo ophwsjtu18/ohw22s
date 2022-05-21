@@ -44,7 +44,7 @@ wf = wave.open(WAVE_OUTPUT_FILENAME, 'wb')
 wf.setnchannels(CHANNELS)
 wf.setsampwidth(p.get_sample_size(FORMAT))
 wf.setframerate(RATE)
-wf.writeframes('wb'.join(frames))
+wf.writeframes(b''.join(frames))
 wf.close()
 
 with open('audio.wav', 'rb') as fp:
@@ -65,9 +65,9 @@ else:
 answer="这就为您搜索"+str(result['result'])+"的菜谱"
 
 voice=client.synthesis(answer,'zh',6,{'vol':15,'per':3,'spd':5})
-with open("temp0.mp3",'wb') as fp:
+with open("quesion.mp3",'wb') as fp:
     fp.write(voice)
-os.system("temp0.mp3")
+os.system("question.mp3")
 
 print(result['result'])
 b=str(result['result'][0].encode('utf-8'))
