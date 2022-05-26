@@ -4,7 +4,7 @@ Assignment List
 0330 作业：利用mqtt的pub/sub机制，组长运行摄像头人脸识别，发送left right up down forward back 信息给sub， 组员跟据收到的信息，驱动我的世界玩家前后左右移动。  
 my code: mqtt pub + face cascade + send messages  
 0406 作业: 利用 mediapipe 完成手势识别，用食指通过mqtt远程指挥我的世界玩家移动  
-my code: index finger -> (x,y) （远近识别实现难度较高，因此目前只能在二维平面中运动）
+my code: index finger -> (x,y) （远近识别实现难度较高，因此目前只能在二维平面中运动） 
 0413 作业：学习blockcopy.py和blockpast.py代码 完成交大某栋楼的拷贝，粘贴，代码和效果图上传github  
 作业2：把你的头像通过opencv的gray灰度图，利用不同颜色羊毛方块，镶嵌在交大校园里你的宿舍外墙上。图片和代码上传github    
 
