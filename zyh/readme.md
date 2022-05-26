@@ -7,14 +7,14 @@ my code: mqtt pub + face cascade + send messages
 my code: index finger -> (x,y) （远近识别实现难度较高，因此目前只能在二维平面中运动） 
 0413 作业：学习blockcopy.py和blockpast.py代码 完成交大某栋楼的拷贝，粘贴，代码和效果图上传github  
 作业2：把你的头像通过opencv的gray灰度图，利用不同颜色羊毛方块，镶嵌在交大校园里你的宿舍外墙上。图片和代码上传github    
-
+done.
 0420 作业：根据clan_layout.csv,规划一个有10个房子的部落，部落有外圈，大议事厅等。 进入某个房子，就会显示 “welcom to xxx 's home" 其中xxx是housename  
-     作业2：研究carsimple的流程，自己设计一个多部件的小物品，可以用python指挥物品部件运动  
-     
+     作业2：研究carsimple的流程，自己设计一个多部件的小物品，可以用python指挥物品部件运动   
+done
 0427 作业：到百度领取自己的免费账号密码，使用自己的账号密码完成智能厨房小助手对话  
-
+done
 0511 作业：阅读MaixDuino入门ppt，自行查找资料，了解RISC-V，K210,Maixduio，Maixpy，ESP32 之间的关系  
-
-<img src="https://github.com/ophwsjtu18/ohw22s/blob/main/zyh/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220327201457.png" width=100px>
-<img src="https://github.com/ophwsjtu18/ohw22s/blob/main/zyh/tiger.jpg" width=100px>
+done
+<img src="https://github.com/ophwsjtu18/ohw22s/blob/main/zyh/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220327201457.png" width=500px>
+<img src="https://github.com/ophwsjtu18/ohw22s/blob/main/zyh/tiger.jpg" width=500px>
 
