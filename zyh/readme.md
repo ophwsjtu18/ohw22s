@@ -15,6 +15,6 @@ done.
 done.   
 0511 作业：阅读MaixDuino入门ppt，自行查找资料，了解RISC-V，K210,Maixduio，Maixpy，ESP32 之间的关系   
 done.   
-<img src="https://github.com/ophwsjtu18/ohw22s/blob/main/zyh/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220327201457.png" width=500px>
-<img src="https://github.com/ophwsjtu18/ohw22s/blob/main/zyh/tiger.jpg" width=500px>
-
+<img src="https://github.com/ophwsjtu18/ohw22s/blob/main/zyh/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220327201457.png" width=500px>  
+<img src="https://github.com/ophwsjtu18/ohw22s/blob/main/zyh/tiger.jpg" width=500px>  
+ 
