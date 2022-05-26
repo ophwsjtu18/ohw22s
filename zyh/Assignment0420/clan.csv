@@ -1,0 +1,11 @@
+housename,x,y,z,l,w,h,m,roofname
+Kevin,100,0,-140,10,10,6,49,kroof.csv
+Alice,115,0,-188,10,10,8,49,roof.csv
+Bob,130,0,-172,10,10,7,49,roof.csv
+Cathy,140,0,-175,10,10,6,22,roof.csv
+Doris,152,0,-140,10,10,6,22,roof.csv
+Eric,152,0,-220,10,10,6,22,roof.csv
+Frank,152,0,-172,10,10,6,22,roof.csv
+Grace,152,0,-175,10,10,6,22,roof.csv
+Hannah,152,0,-160,15,15,8,57,myroof.csv
+HALL,50,0,-180,20,20,20,155,hroof.csv
